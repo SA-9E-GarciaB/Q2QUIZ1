@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Currency Research</title>
+    <!-- Bootstrap CSS link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #759cf0;
+         font-family: monospace;
+          }
+        .container {
+            margin-top: 50px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #000000   ;
+        }
+         
+        .crypto-card {
+            margin-top: 20px;
+        }
+        .crypto-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .crypto-card-body {
+            background-color: #bdbdbd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .crypto-card-body h5 {
+            color: #ffffff;
+        }
+        .crypto-table th, .crypto-table td {
+            text-align: center;
+        }
+        .crypto-table {
+            margin-top: 20px;
+
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Page Header -->
+        <h1>Cryptocurrency Overview</h1>
+        <p class="lead">Explore the details of top cryptocurrencies: Bitcoin, Ethereum, and Ripple.</p>
+
+        <!-- Cryptocurrency Cards -->
+        <div class="row">
+            <!-- Bitcoin -->
+            <div class="col-md-4">
+                <div class="card crypto-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png" class="card-img-top" alt="Bitcoin">
+                    <div class="card-body crypto-card-body">
+                        <h5 class="card-title">Bitcoin</h5>
+                        <p class="card-text">Bitcoin is the first decentralized cryptocurrency, created in 2009 by an anonymous person or group of people using the name Satoshi Nakamoto.</p>
+                        <table class="table crypto-table">
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Founded</th>
+                                    <td>2009</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Founder</th>
+                                    <td>Satoshi Nakamoto</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Symbol</th>
+                                    <td>BTC</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Market Cap</th>
+                                    <td>$500 Billion+</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ethereum -->
+            <div class="col-md-4">
+                <div class="card crypto-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/1200px-Ethereum_logo_2014.svg.png" class="card-img-top" alt="Ethereum">
+                    <div class="card-body crypto-card-body">
+                        <h5 class="card-title">Ethereum</h5>
+                        <p class="card-text">Ethereum is a decentralized platform that runs smart contracts, applications that run exactly as programmed without any possibility of downtime, fraud, or third-party interference.</p>
+                        <table class="table crypto-table">
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Founded</th>
+                                    <td>2015</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Founder</th>
+                                    <td>Vitalik Buterin</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Symbol</th>
+                                    <td>ETH</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Market Cap</th>
+                                    <td>$200 Billion+</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ripple -->
+            <div class="col-md-4">
+                <div class="card crypto-card">
+                    <img src="https://cryptologos.cc/logos/xrp-xrp-logo.png" class="card-img-top" alt="Ripple">
+                    <div class="card-body crypto-card-body">
+                        <h5 class="card-title">Ripple (XRP)</h5>
+                        <p class="card-text">Ripple is both a platform and a currency. The Ripple platform is an open-source protocol that is designed to allow fast and cheap transactions.</p>
+                        <table class="table crypto-table">
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Founded</th>
+                                    <td>2012</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Founder</th>
+                                    <td>Chris Larsen, Jed McCaleb</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Symbol</th>
+                                    <td>XRP</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Market Cap</th>
+                                    <td>$20 Billion+</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Data sourced from <a href="https://www.coingecko.com/en" target="_blank" style="color: #fff;">CoinGecko</a></p>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
